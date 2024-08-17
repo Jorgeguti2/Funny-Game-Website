@@ -2,6 +2,7 @@
  Beginner website created as a troll game. Used to learn basic website creation with basic user interaction.
 
 # How to Run:
+- Make sure to have node.js installed on your computer (https://nodejs.org/en)
 - Open a terminal in the "Website" folder directory
 - Run "npm install http-server -g"
 - Run "http-server"
