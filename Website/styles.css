@@ -1,11 +1,11 @@
-/* Moving the header and input box to the center of the page */
-h1, input {
-    margin-left: 650px;
+/* Styling for the header */
+h1 {
+    margin-left: 525px;
 }
 
-/* Specific styling for the header */
-h1 {
-    padding-left: 10px;
+/* Styling for the input box */
+input {
+    margin-left: 650px;
 }
 
 /* Specific styling for the button */
