@@ -14,4 +14,7 @@ button#usersubmit {
 }
 
 /* Styling for dot image */
-
+input#dot {
+    margin-left: 630px;
+    
+}
