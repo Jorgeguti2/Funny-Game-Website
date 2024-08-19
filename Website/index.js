@@ -1,5 +1,7 @@
 // get user input when they click submit and assign it to variable userInput
 let userInput;
+
+// function that will be used for the initial prompts where user enters text prompts
 document.getElementById("usersubmit").onclick = function(){
     userInput = document.getElementById("inputbox").value;
 
@@ -37,4 +39,9 @@ document.getElementById("usersubmit").onclick = function(){
 
     // clear out the input field for next input
     document.getElementById("inputbox").value='';
+}
+
+// function that will be used for the "click the smallest dot" prompt
+document.getElementById("dot").onclick = function(){
+    
 }
