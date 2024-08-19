@@ -24,6 +24,11 @@ document.getElementById("userSubmit").onclick = function(){
         document.getElementById("textBox").style.marginLeft = '500px';
         document.getElementById("inputBox").remove();
         document.getElementById("userSubmit").remove();
+
+        // TODO:
+        // Complete this step/prompt in the game where you add a lot of random dots
+        // on the page but make the period the correct one.
+        
     }
     // If no correct input is entered for the respective prompt, we enter 
     else {

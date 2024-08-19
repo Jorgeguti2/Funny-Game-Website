@@ -1,3 +1,10 @@
+/* TODO:
+Don't generalize the styling for header or input or button.
+Make the styling specification for the id's work
+(Right now for some reason for example, when I change "button" to 
+"userSubmit", it does not format the submit button even tho it should)
+*/
+
 /* Styling for the header */
 h1 {
     margin-left: 525px;
