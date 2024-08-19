@@ -1,7 +1,7 @@
 // get user input when they click submit and assign it to variable userInput
 let userInput;
-document.getElementById("userSubmit").onclick = function(){
-    userInput = document.getElementById("inputBox").value;
+document.getElementById("user-submit").onclick = function(){
+    userInput = document.getElementById("input-box").value;
 
     // Below is the set of if else statements that will be used to drive the functionality of the website "game"
 
@@ -9,21 +9,21 @@ document.getElementById("userSubmit").onclick = function(){
     // If it is, we move on to the next prompt.
     if (userInput == 'password' && textBox.innerText == "Hello! Please enter password."){
         textBox.innerText = "Incorrect, please try again.";
-        document.getElementById("textBox").style.marginLeft = '550px';
+        document.getElementById("text-box").style.marginLeft = '550px';
     }
     // Next if statement tests if "again" is entered or not. Case sensitive.
     // If it is, we move on to the next prompt.
     else if (userInput == 'again' && textBox.innerText == "Incorrect, please try again."){
         textBox.innerText = "No, the password is wrong.";
-        document.getElementById("textBox").style.marginLeft = '550px';
+        document.getElementById("text-box").style.marginLeft = '550px';
     }
     // Next if statement tests if "wrong" is entered or not. Case sensitive.
     // If it is, we move on to the next prompt.
     else if (userInput == 'wrong' && textBox.innerText == "No, the password is wrong."){
         textBox.innerText = "Click the smallest dot on the screen.";
-        document.getElementById("textBox").style.marginLeft = '500px';
-        document.getElementById("inputBox").remove();
-        document.getElementById("userSubmit").remove();
+        document.getElementById("text-box").style.marginLeft = '500px';
+        document.getElementById("input-box").remove();
+        document.getElementById("user-submit").remove();
 
         // TODO:
         // Complete this step/prompt in the game where you add a lot of random dots
@@ -36,5 +36,5 @@ document.getElementById("userSubmit").onclick = function(){
     }
 
     // clear out the input field for next input
-    document.getElementById("inputBox").value='';
+    document.getElementById("input-box").value='';
 }
