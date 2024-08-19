@@ -7,11 +7,18 @@ document.getElementById("userSubmit").onclick = function(){
 
     // If statement to test if "password" is entered or not. Case sensitive.
     // If it is, we move on to the next prompt.
-    // If it is not, we say error and ask them to try again.
     if (userInput == 'password'){
         textBox.innerText = "Incorrect, please try again.";
         document.getElementById("textBox").style.marginLeft = '550px';
-    }else {
+    }
+    // Next if statement tests if "again" is entered or not. Case sensitive.
+    // If it is, we move on to the next prompt.
+    else if (userInput == 'again'){
+        textBox.innerText = "No, the password is wrong.";
+        document.getElementById("textBox").style.marginLeft = '550px';
+    }
+    // If no correct input is entered for the respective prompt, we enter 
+    else {
         alert('Error, please retry.');
     }
 
