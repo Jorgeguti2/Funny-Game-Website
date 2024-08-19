@@ -2,7 +2,7 @@
 let userInput;
 document.getElementById("userSubmit").onclick = function(){
     userInput = document.getElementById("inputBox").value;
-    if 
+    //if 
     // clear out the input field for next input
     document.getElementById("inputBox").value='';
 }
