@@ -10,6 +10,7 @@ document.getElementById("userSubmit").onclick = function(){
     // If it is not, we say error and ask them to try again.
     if (userInput == 'password'){
         textBox.innerText = "Incorrect, please try again.";
+        document.getElementById("textBox").style.marginLeft = '550px';
     }else {
         alert('Error, please retry.');
     }
