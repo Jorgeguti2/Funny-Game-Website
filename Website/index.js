@@ -22,6 +22,8 @@ document.getElementById("userSubmit").onclick = function(){
     else if (userInput == 'wrong' && textBox.innerText == "No, the password is wrong."){
         textBox.innerText = "Click the smallest dot on the screen.";
         document.getElementById("textBox").style.marginLeft = '500px';
+        document.getElementById("inputBox").remove();
+        document.getElementById("userSubmit").remove();
     }
     // If no correct input is entered for the respective prompt, we enter 
     else {
