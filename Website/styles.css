@@ -5,17 +5,17 @@ Make the styling specification for the id's work
 "userSubmit", it does not format the submit button even tho it should)
 */
 
-/* Styling for the header */
-h1 {
+/* Styling for the text box header */
+h1#text-box {
     margin-left: 525px;
 }
 
 /* Styling for the input box */
-input {
-    margin-left: 650px;
+input#input-box {
+    margin-left: 630px;
 }
 
-/* Specific styling for the button */
-button {
+/* Specific styling for the submit button */
+button#user-submit {
     margin-left: 690px;
 }
