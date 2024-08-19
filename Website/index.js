@@ -7,13 +7,13 @@ document.getElementById("userSubmit").onclick = function(){
 
     // If statement to test if "password" is entered or not. Case sensitive.
     // If it is, we move on to the next prompt.
-    if (userInput == 'password'){
+    if (userInput == 'password' && textBox.innerText == "Hello! Please enter password."){
         textBox.innerText = "Incorrect, please try again.";
         document.getElementById("textBox").style.marginLeft = '550px';
     }
     // Next if statement tests if "again" is entered or not. Case sensitive.
     // If it is, we move on to the next prompt.
-    else if (userInput == 'again'){
+    else if (userInput == 'again' && textBox.innerText == "Incorrect, please try again."){
         textBox.innerText = "No, the password is wrong.";
         document.getElementById("textBox").style.marginLeft = '550px';
     }
