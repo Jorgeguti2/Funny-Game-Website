@@ -6,16 +6,16 @@ Make the styling specification for the id's work
 */
 
 /* Styling for the text box header */
-h1#text-box {
+h1#textbox {
     margin-left: 525px;
 }
 
 /* Styling for the input box */
-input#input-box {
+input#inputbox {
     margin-left: 630px;
 }
 
 /* Specific styling for the submit button */
-button#user-submit {
+button#usersubmit {
     margin-left: 690px;
 }

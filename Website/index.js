@@ -1,29 +1,29 @@
 // get user input when they click submit and assign it to variable userInput
 let userInput;
-document.getElementById("user-submit").onclick = function(){
-    userInput = document.getElementById("input-box").value;
+document.getElementById("usersubmit").onclick = function(){
+    userInput = document.getElementById("inputbox").value;
 
     // Below is the set of if else statements that will be used to drive the functionality of the website "game"
 
     // If statement to test if "password" is entered or not. Case sensitive.
     // If it is, we move on to the next prompt.
-    if (userInput == 'password' && textBox.innerText == "Hello! Please enter password."){
-        textBox.innerText = "Incorrect, please try again.";
-        document.getElementById("text-box").style.marginLeft = '550px';
+    if (userInput == 'password' && textbox.innerText == "Hello! Please enter password."){
+        textbox.innerText = "Incorrect, please try again.";
+        document.getElementById("textbox").style.marginLeft = '550px';
     }
     // Next if statement tests if "again" is entered or not. Case sensitive.
     // If it is, we move on to the next prompt.
-    else if (userInput == 'again' && textBox.innerText == "Incorrect, please try again."){
-        textBox.innerText = "No, the password is wrong.";
-        document.getElementById("text-box").style.marginLeft = '550px';
+    else if (userInput == 'again' && textbox.innerText == "Incorrect, please try again."){
+        textbox.innerText = "No, the password is wrong.";
+        document.getElementById("textbox").style.marginLeft = '550px';
     }
     // Next if statement tests if "wrong" is entered or not. Case sensitive.
     // If it is, we move on to the next prompt.
-    else if (userInput == 'wrong' && textBox.innerText == "No, the password is wrong."){
-        textBox.innerText = "Click the smallest dot on the screen.";
-        document.getElementById("text-box").style.marginLeft = '500px';
-        document.getElementById("input-box").remove();
-        document.getElementById("user-submit").remove();
+    else if (userInput == 'wrong' && textbox.innerText == "No, the password is wrong."){
+        textbox.innerText = "Click the smallest dot on the screen.";
+        document.getElementById("textbox").style.marginLeft = '500px';
+        document.getElementById("inputbox").remove();
+        document.getElementById("usersubmit").remove();
 
         // TODO:
         // Complete this step/prompt in the game where you add a lot of random dots
@@ -36,5 +36,5 @@ document.getElementById("user-submit").onclick = function(){
     }
 
     // clear out the input field for next input
-    document.getElementById("input-box").value='';
+    document.getElementById("inputbox").value='';
 }
