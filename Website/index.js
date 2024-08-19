@@ -20,7 +20,7 @@ document.getElementById("usersubmit").onclick = function(){
     // Next if statement tests if "wrong" is entered or not. Case sensitive.
     // If it is, we move on to the next prompt.
     else if (userInput == 'wrong' && textbox.innerText == "No, the password is wrong."){
-        textbox.innerText = "Click the smallest dot on the screen.";
+        textbox.innerText = "Click the smallest dot on the screen";
         document.getElementById("textbox").style.marginLeft = '500px';
         document.getElementById("inputbox").remove();
         document.getElementById("usersubmit").remove();
