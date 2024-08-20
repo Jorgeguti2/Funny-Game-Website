@@ -44,5 +44,10 @@ document.getElementById("usersubmit").onclick = function(){
 
 // function that will be used for the "click the smallest dot" prompt
 document.getElementById("dot").onclick = function(){
-    
+    textbox.innerText = "Yay! You beat the game!";
+    document.getElementById("textbox").style.marginLeft = '550px';
+    // Hide the dot image to use as the correct dot
+    document.getElementById("dot").style.visibility = 'hidden';
+    // Hide the dots image to have the tricky part of the prompt show
+    document.getElementById("dots").style.visibility = 'hidden'; 
 }
