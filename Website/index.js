@@ -30,6 +30,9 @@ document.getElementById("usersubmit").onclick = function(){
         // TODO:
         // Complete this step/prompt in the game where you add a lot of random dots
         // on the page but make the period the correct one.
+
+        // Unhide the dot image to use as the correct dot
+        document.getElementById("dot").style.visibility = 'visible';
         
     }
     // If no correct input is entered for the respective prompt, we enter 
