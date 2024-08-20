@@ -50,4 +50,6 @@ document.getElementById("dot").onclick = function(){
     document.getElementById("dot").style.visibility = 'hidden';
     // Hide the dots image to have the tricky part of the prompt show
     document.getElementById("dots").style.visibility = 'hidden'; 
+    //Unhide the emoji to show to celebrate the win
+    document.getElementById("congrats").style.visibility = 'visible';
 }

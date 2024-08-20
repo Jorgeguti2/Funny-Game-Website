@@ -26,10 +26,31 @@ input#dot {
     visibility: hidden;
 }
 
+/* Styling for dots image */
 img#dots {
     visibility: hidden;
     position: absolute;
     right:10%;
     height: 550px;
     width: 999px;
+}
+
+/* Will use keyframes to give the constant rotation functionality to the emoji */
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to { 
+      transform: rotate(360deg);
+    }
+  }
+
+/* Styling for emoji image */
+img#congrats{
+    visibility: hidden;
+    position: absolute;
+    height: 300px;
+    top: 25%;
+    right: 36.5%;
+    animation: rotate 0.5s infinite linear;
 }
