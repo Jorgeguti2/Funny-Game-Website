@@ -46,5 +46,5 @@ document.getElementById("usersubmit").onclick = function(){
 
 // function that will be used for the "click the smallest dot" prompt
 document.getElementById("dot").onclick = function(){
-    
+    alert('');
 }
