@@ -27,12 +27,10 @@ document.getElementById("usersubmit").onclick = function(){
         document.getElementById("inputbox").remove();
         document.getElementById("usersubmit").remove();
 
-        // TODO:
-        // Complete this step/prompt in the game where you add a lot of random dots
-        // on the page but make the period the correct one.
-
         // Unhide the dot image to use as the correct dot
         document.getElementById("dot").style.visibility = 'visible';
+        // Unhide the dots image to have the tricky part of the prompt show
+        document.getElementById("dots").style.visibility = 'visible'; 
         
     }
     // If no correct input is entered for the respective prompt, we enter 
@@ -46,5 +44,5 @@ document.getElementById("usersubmit").onclick = function(){
 
 // function that will be used for the "click the smallest dot" prompt
 document.getElementById("dot").onclick = function(){
-    alert('');
+    
 }
